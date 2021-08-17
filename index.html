@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="left-chat-container">
+        <div class="receiver selected">
+          <div class="receiver-name">Select Message Type</div>
+          <div>
+            <i
+              class="receiver-drop fa fa-chevron-circle-down"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </div>
+        <div class="receiver selected">
+          <div class="receiver-name">Select Outlet</div>
+          <div>
+            <i
+              class="receiver-drop fa fa-chevron-circle-down"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </div>
+        <div class="msg-form">
+          <div class="to-container">
+            <div class="to-label">New Message</div>
+            <!-- <div class="to-label">Reply Message</div>
+            <div class="reply-clear">
+              <i class="fa fa-times" title="Cancel Reply"></i>
+            </div> -->
+          </div>
+          <div class="sub-msg-form">
+            <textarea
+              name=""
+              id="msgInput"
+              rows="15"
+              placeholder="Type message here..."
+            ></textarea>
+          </div>
+          <button class="msg-send btn">Send</button>
+        </div>
+      </div>
+
+      <div class="right-chat-container">
+        <!-- first chat -->
+        <div class="left-reply">
+          <div class="sender">
+            <div class="expander">
+              <div class="name"><sup>From:</sup> Agent 1</div>
+              <div class="name"><sup>To:</sup> Outlet 1</div>
+            </div>
+          </div>
+          <div class="msg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+            porro asperiores nesciunt earum quisquam illum aliquid nemo expedita
+            dolores ea in nam alias cum consectetur ducimus eaque suscipit
+            quidem? Culpa.
+          </div>
+          <div class="chat-box-footer">
+            <div class="msg-time">17:25, 11 Aug 2021</div>
+            <div class="chat-action-grid">
+              <div class="chat-action">
+                <i class="fa fa-reply" aria-hidden="true"> Reply</i>
+              </div>
+              <div class="chat-action">
+                <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="expand-container">
+            <div class="name">Outlet 1</div>
+            <div class="msg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+              porro asperiores nesciunt earum quisquam illum aliquid nemo
+              expedita dolores ea in nam alias cum consectetur ducimus eaque
+              suscipit quidem? Culpa.
+            </div>
+            <div class="chat-box-footer">
+              <div class="msg-time">17:25, 11 Aug 2021</div>
+            </div>
+          </div>
+
+          <div class="expand-container special-level">
+            <div class="name">Manager</div>
+            <div class="msg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+              porro asperiores nesciunt earum quisquam illum aliquid nemo
+              expedita dolores ea in nam alias cum consectetur ducimus eaque
+              suscipit quidem? Culpa.
+            </div>
+            <div class="chat-box-footer">
+              <div class="msg-time">17:25, 11 Aug 2021</div>
+            </div>
+          </div>
+
+          <div class="expand-container">
+            <div class="name">Outlet 1</div>
+            <div class="msg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+              porro asperiores nesciunt earum quisquam illum aliquid nemo
+              expedita dolores ea in nam alias cum consectetur ducimus eaque
+              suscipit quidem? Culpa.
+            </div>
+            <div class="chat-box-footer">
+              <div class="msg-time">17:25, 11 Aug 2021</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second chat -->
+        <div class="left-reply">
+          <div class="sender">
+            <div class="expander">
+              <div class="name"><sup>From:</sup> Agent 1</div>
+              <div class="name"><sup>To:</sup> Outlet 2</div>
+            </div>
+          </div>
+          <div class="msg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+            porro asperiores nesciunt earum quisquam illum aliquid nemo expedita
+            dolores ea in nam alias cum consectetur ducimus eaque suscipit
+            quidem? Culpa.
+          </div>
+          <div class="chat-box-footer">
+            <div class="msg-time">17:25, 11 Aug 2021</div>
+            <div class="chat-action-grid">
+              <div class="chat-action">
+                <i class="fa fa-reply" aria-hidden="true"> Reply</i>
+              </div>
+              <div class="chat-action">
+                <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="expand-container">
+            <div class="name">Outlet 2</div>
+            <div class="msg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+              porro asperiores nesciunt earum quisquam illum aliquid nemo
+              expedita dolores ea in nam alias cum consectetur ducimus eaque
+              suscipit quidem? Culpa.
+            </div>
+            <div class="chat-box-footer">
+              <div class="msg-time">17:25, 11 Aug 2021</div>
+            </div>
+          </div>
+
+          <div class="expand-container">
+            <div class="name">Agent 1</div>
+            <div class="msg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+              porro asperiores nesciunt earum quisquam illum aliquid nemo
+              expedita dolores ea in nam alias cum consectetur ducimus eaque
+              suscipit quidem? Culpa.
+            </div>
+            <div class="chat-box-footer">
+              <div class="msg-time">17:25, 11 Aug 2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
